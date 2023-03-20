@@ -31,8 +31,12 @@ window.addEventListener("scroll", changeColor);
             <Link to="/">Inicio</Link>
         </li>
         <li>
+            <Link to="/Project">Proyectos</Link>
+        </li>
+        <li>
             <Link to="/Herramientas">Herramientas</Link>
         </li>
+        
         <li>
             <Link to="/About">Sobre mi</Link>
         </li>

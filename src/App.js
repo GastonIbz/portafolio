@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import { Route, Routes } from "react-router-dom";
 import Herramientas from "./routes/Herramientas";
+import Project from "./routes/Project";
 
 
 
@@ -14,6 +15,7 @@ function App() {
 <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/Herramientas" element={<Herramientas />} />
+  <Route path="/Project" element={<Project />} />
   <Route path="/About" element={<About />} />
   <Route path="/Contact" element={<Contact />} />
 </Routes>
