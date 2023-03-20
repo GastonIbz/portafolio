@@ -1,13 +1,54 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Yeseva+One&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #000000fb;
+
+}
+
+h1,h4,p,a {
+  color:#cac4c4;
+  text-decoration: none;
+  font-family: monospace;
+
+}
+ul {
+  list-style-type: none;
+}
+.btn {
+  padding:12px 32px;
+  font-size: 0.8rem;
+text-transform: uppercase;
+background: linear-gradient(1deg ,#9e8c8c, #ce293c4d,#df0000 );
+background-color:  #ce293c4d  ;
+color:#FAF5F4;
+border:1px solid #FAF5F4;
+font-weight: 600;
+cursor:pointer;
+letter-spacing: 0.5px;
+  font-family: monospace;
+
+}
+.btn-light{
+ background: transparent;
+ color:#FAF5F4;
+}
+.btn:hover{
+  background: transparent;
+  color:#FAF5F4;
+  transition: 5ms;
+
+}
+.btn-light:hover{
+  background: linear-gradient(7deg ,#917979, #ce293c4d,#df0000);
+  background-color:  #ce293c4d  ;
+  color:#FAF5F4;
+  transition: 7ms;
 }

@@ -1,0 +1,85 @@
+label {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1rem;
+    background-color:#000000;
+    border-color:#ce293c6c;
+    color: #ffffff;
+}
+.btn-form {
+    padding:12px 32px;
+    font-size: 0.8rem;
+  text-transform: uppercase;
+  background: linear-gradient(1deg ,#9e8c8c, #ce293c4d,#df0000 );
+  background-color:  #ce293c4d  ;
+  color:#ffffff;
+  border:1px solid #f8f8f8;
+  font-weight: 600;
+  cursor:pointer;
+  letter-spacing: 0.5px;
+  font-family: monospace;
+  
+    border-radius: 4px;
+  
+    width: 50%;
+    height: 40%;
+    position: relative;
+    left: 150px;
+}
+.btn-light{
+    background: transparent;
+    color:#FAF5F4;
+   }
+   .btn:hover{
+     background: transparent;
+     color:#FAF5F4;
+     transition: 7ms;
+   
+   }
+   .btn-light:hover{
+     background: linear-gradient(7deg ,#917979, #ce293c4d,#df0000);
+     background-color:  #ce293c4d  ;
+     color:#FAF5F4;
+     transition: 7ms;
+     
+   }
+   .Maquinaescribir2 {
+    font-size: 23px;
+    color: #ffffff;
+     display: block;
+     font-family: monospace;
+white-space: nowrap;
+border-right:  1px solid;
+width: 12ch;
+animation: typing 2s steps(15), blink .4s infinite step-end alternate;
+overflow:hidden;
+text-align: left;
+position: relative;
+top:-15px
+
+
+}
+
+   @media screen and (max-width:640px) {
+
+    .btn-form {
+      width: 50%;
+      height: 40%;
+      position: relative;
+      left: 105px;
+    }
+    
+}
+   

@@ -1,0 +1,92 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 300px;
+
+}
+
+.about .left p {
+    color: #cac4c4;
+    margin: 1.2rem 0;
+    font-family: monospace;
+    
+}
+.about .right {
+
+    max-width: 700px;
+}
+.right .img-container {
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+ 
+
+}
+.right .img-super {
+    max-width: 70%;
+    border: 0.1em solid #caaaaa;
+    border-radius: 5%;
+    position:relative;
+    top: -8px;
+    left: -90px;
+
+
+  
+}
+.right .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.right .bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+}
+
+.Maquinaescribir {
+    font-size: 23px;
+    color: #cac4c4;
+     display: block;
+     font-family: monospace;
+white-space: nowrap;
+border-right:  1px solid;
+width: 21ch;
+
+animation: typing 2s steps(18), blink .4s infinite step-end alternate;
+overflow:hidden;
+}
+@media screen and (max-width:740px)  {
+    .right .img-super {
+      position: relative;
+      left:2px;
+      top: -90px;
+    
+    }    
+    }
+
+@keyframes typing {
+
+from { width: 0}
+}
+
+@keyframes blink {
+ 70% { border-color: transparent}
+}
+
+

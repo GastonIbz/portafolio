@@ -1,0 +1,64 @@
+.tecno {
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #07080a;
+
+}
+
+.card-container {
+    max-width: 1140px;
+ margin:auto;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+ grid-gap: 70px;  
+
+}
+.card {
+    border:1px solid #ffffff;
+    color: #cac4c4;
+    text-align: center;
+    padding: 1rem;
+}
+.card:hover {
+    background-color: #ce293c1c;
+}
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.card p {
+   padding: 10px 0;
+}
+.bar {
+    border-bottom: 1px solid #fff;
+    width: 12%;
+    margin: 1.5rem auto;
+    display: block;
+}
+.img-Dev-Tec {
+    size: 10px;
+    padding: 1rem 1rem;
+    height: 120px;
+    grid-column: auto;
+}
+.img-Dev-Des {
+    size: 10px;
+    padding: 1rem 1rem;
+    height: 120px;
+    grid-column: auto;
+}
+
+.Tecno-heading {
+    text-align: center;
+    padding: 0rem 0 4rem 0;
+    
+}
+
+
+@media screen and (max-width:740px)  {
+.card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+}    
+}
